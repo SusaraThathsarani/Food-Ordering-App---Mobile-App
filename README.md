@@ -1,16 +1,53 @@
-# food_order_app
+# Food Order App
 
-A new Flutter project.
+A Flutter mobile app for browsing food items, viewing details, and managing a cart.
 
-## Getting Started
+## Prerequisites
 
-This project is a starting point for a Flutter application.
+- Flutter SDK (stable channel)
+- Android Studio or VS Code with Flutter extensions
+- A running backend API server (see `../food-item-backend`)
 
-A few resources to get you started if this is your first Flutter project:
+## Run The App
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Install dependencies:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+	 ```bash
+	 flutter pub get
+	 ```
+
+2. Start a device or emulator.
+
+3. Run the app:
+
+	 ```bash
+	 flutter run
+	 ```
+
+## Useful Commands
+
+- Analyze code:
+
+	```bash
+	flutter analyze
+	```
+
+- Run tests:
+
+	```bash
+	flutter test
+	```
+
+## Project Structure
+
+- `lib/main.dart`: app entry point
+- `lib/pages/`: UI screens
+- `lib/models/`: app data models
+- `lib/providers/`: state management
+- `assets/`, `images/`, `fonts/`: static resources
+
+## Backend
+
+The mobile app is designed to work with the Node.js backend in `../food-item-backend`.
+
+Make sure the backend server is running and that API URLs used by the app match your local environment.
