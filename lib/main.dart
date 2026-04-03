@@ -11,7 +11,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-   runApp(
+  runApp(
     ChangeNotifierProvider(
       create: (ctx) => CartProvider(),
       child: MyApp(),
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Food Ordering App',
+      title: 'Food Ordering Mobile App',
       theme: ThemeData(primarySwatch: Colors.green),
       initialRoute: '/login', // Set the initial page
       routes: {
