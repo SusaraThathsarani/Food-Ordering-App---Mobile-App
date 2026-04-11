@@ -163,7 +163,7 @@ void getUserId() {
                   ),
                   SizedBox(height: 8),
                   Text(
-                    "Discover delicious meals",
+                    "Discover tasty meals",
                     style: TextStyle(fontSize: 16, color: Colors.white70),
                   ),
                 ],
